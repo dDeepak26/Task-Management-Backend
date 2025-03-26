@@ -4,6 +4,8 @@ const connectDB = require("./config/db");
 const taskRoutes = require("./routes/taskRoutes");
 require("dotenv").config();
 
+const PORT = process.env.PORT || 8000;
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -20,6 +22,6 @@ app.get("/api", (req, res) => {
 connectDB();
 
 // Server Start
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server is Listening on ${process.env.PORT}...`);
 });
