@@ -1,5 +1,9 @@
 ## Task Management App
 
+[LIVE LINK](https://task-management-frontend-ddeepak26s-projects.vercel.app/)
+
+[FRONTEND REPO LINK](https://github.com/dDeepak26/Task-Management-frontend)
+
 **Installation**
 
 - clone the repo
